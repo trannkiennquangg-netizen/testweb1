@@ -9,7 +9,32 @@
     <link rel="stylesheet" href="./assets/style/product_detail_tab.css">
 </head>
 <body>
-    <div id="header1"></div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                logo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Đăng nhập</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sản phẩm</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="all_phones.html">Điện thoại</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Tìm kiến sản phẩm" aria-label="search"/>
+                    <button class="btn btn-outline-success text-nowrap" type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+        </div>
+    </nav>
     <div class="container-fluid mt-3" data-bs-theme="dark">
         <div class="row row-cols-1 row-cols-md-2">
             <div class="col">
@@ -557,7 +582,37 @@
             </div>
         </div>
     </div>
-    <div id="footer1"></div>
+    <footer class="bg-secondary w-100 pb-5 pt-2 px-2">
+        <div class="row">
+            <div class="col">
+                <form>
+                        
+                    <label for="InputEmail1" class="form-label h6">Đăng ký nhận tin mới nhất và các khuyến mãi</label>
+                    <div class="has-validation">
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="input" placeholder="Email" required> 
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-2">Đăng ký</button>
+                </form>
+                
+            </div>
+            <div class="col">
+                <p class="h6">Liên kết nhanh</p>
+                <ul class="list-unstyled">
+                    <li><a href="iphone_17.html" class="text-decoration-none text-dark">iPhone 17</a></li>
+                    <li><a href="#" class="text-decoration-none text-dark">Samsung Galaxy Tab S10 Ultra 5G</a></li>
+                    <li><a href="#" class="text-decoration-none text-dark">Lenovo ThinkPad E16 Gen 3</a></li>
+                    <li><a href="#" class="text-decoration-none text-dark">Sandisk Ultra A1 256GB</a></li>
+                </ul>
+                <p class="h6">Mạng xã hội</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="text-decoration-none text-dark"><i class="bi bi-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-decoration-none text-dark"><i class="bi bi-youtube"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-decoration-none text-dark"><i class="bi bi-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="mt-4 text-center">2026 Trần Kiến Quang. All rights reserved</p>
+    </footer>
     <script src="./assets/script/header.js"></script>
     <script src="./assets/script/footer.js"></script>
     <script src="./assets/script/product_detail_tab.js"></script>
