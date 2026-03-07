@@ -36,13 +36,13 @@
     </nav>
     <div style="margin: 10vh 0 0 0;"></div>
 
-    <div class="container-fluid" style="padding: 0 5vw 0 5vw;">
+    <div class="container-fluid" style="margin: 0 5vw 3vh 5vw;">
         <div class="row">
             <div class="col-3 rounded bg-secondary" style="padding: 2vh 2vw 2vh 2vw;">
                 <form>
                     <p class="h3">Bộ lọc</p>
 
-                    <div>
+                    <div class="mb-3">
                         <p class="h5">Bộ nhớ trong</p>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="storage-filter-256gb">
@@ -70,7 +70,7 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div class="mb-3">
                         <p class="h5">Màu</p>
                         
                         <div class="form-check">
@@ -99,22 +99,22 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div class="mb-3">
                         <label for="range4" class="form-label h5">Khoảng giá</label>
                         <input type="range" class="form-range" min="0" max="50000000" value="50000000" id="range4">
                         <p>Từ 0 đến <output for="range4" id="rangeValue" aria-hidden="true"></output> đồng</p>
                     </div>
 
-                    <div>
+                    <div class="mb-3">
                         <p class="h5">Sắp xếp theo</p>
-                        <select class="form-select mb-3" aria-label="Default select example" >
+                        <select class="form-select" aria-label="Default select example" >
                             <option value="1" selected>Độ phổ biến</option>
                             <option value="2">Giá từ thấp đến cao</option>
                             <option value="3">Giá từ cao đến thấp</option>
                         </select>
                     </div>
                     
-                    <button type="submit" class="btn btn-primary mb-3">Áp dụng</button>
+                    <button type="submit" class="btn btn-primary">Áp dụng</button>
                 </form>
             </div>
         
